@@ -1,0 +1,14 @@
+{
+  "name": "apkresign",
+  "version": "1.0.0",
+  "dependencies": {
+    "co": "latest",
+    "hanul-co-prompt": "latest",
+    "commander": "latest",
+    "uppercase-core": "latest"
+  },
+  "main": "index.js",
+  "bin": {
+    "apkresign": "./program.js"
+  }
+}
