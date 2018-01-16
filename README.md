@@ -6,7 +6,7 @@ npm install -g apkresign
 ```
 
 ```
-apkresign <SOURCE_FILE_PATH> <KEYSTORE_PATH> <KEYSTORE_ALIAS> <KEYSTORE_PASSWORD>
+apkresign <SOURCE_FILE_PATH> <KEYSTORE_PATH> <KEYSTORE_ALIAS>
 ```
 
 ## 주의사항

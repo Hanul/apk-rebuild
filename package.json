@@ -1,6 +1,6 @@
 {
   "name": "apkresign",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "co": "latest",
     "hanul-co-prompt": "latest",
