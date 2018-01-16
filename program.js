@@ -24,7 +24,7 @@ RUN(() => {
 			
 			Co(function *() {
 				let KEYSTORE_PASSWORD = yield Prompt.password('키스토어 비밀번호: ');
-				apkrebuild(SOURCE_FILE_PATH, KEYSTORE_PATH, KEYSTORE_ALIAS, KEYSTORE_PASSWORD);
+				apkresign(SOURCE_FILE_PATH, KEYSTORE_PATH, KEYSTORE_ALIAS, KEYSTORE_PASSWORD);
 			});
 		});
 	
